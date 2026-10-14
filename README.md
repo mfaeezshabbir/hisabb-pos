@@ -6,7 +6,9 @@ Built for shop counters: Urdu and English, RTL-aware, keyboard-first. Runs on Wi
 
 ## Website
 
-Open the product page: **[Hisabb site](https://mfaeezshabbir.github.io/hisabb-pos/)** (GitHub Pages).
+- **Product page:** https://mfaeezshabbir.github.io/hisabb-pos/
+- **Direct installer:** use **Download for Windows** on the site (resolves to the latest `HisabbSetup-*.exe`)
+- **Repository:** https://github.com/mfaeezshabbir/hisabb-pos
 
 ## What it does
 

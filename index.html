@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hisabb</title>
-  <meta name="description" content="Offline Urdu/English billing for produce-market commission agents." />
+  <title>Hisabb — Offline billing for produce markets</title>
+  <meta name="description" content="Hisabb is the Windows billing and accounts app for produce-market commission agents. Urdu and English. Offline. One activation key." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -14,62 +14,132 @@
   <div class="noise" aria-hidden="true"></div>
 
   <header class="nav">
-    <span class="nav-brand">Hisabb</span>
-    <a class="nav-link" href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest">Download</a>
+    <a class="nav-brand" href="./">Hisabb</a>
+    <div class="nav-actions">
+      <a class="nav-ghost" href="https://github.com/mfaeezshabbir/hisabb-pos">GitHub</a>
+      <a class="nav-dl" data-download href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest/download/HisabbSetup-1.0.0.exe">Download</a>
+    </div>
   </header>
 
   <main>
+    <!-- Product hero: brand + one shot as the product, not a gallery -->
     <section class="hero">
-      <div class="hero-bg" aria-hidden="true">
-        <img src="assets/screens/dashboard.png" alt="" />
+      <div class="hero-copy">
+        <p class="kicker">Windows · Offline · Urdu / English</p>
+        <h1>Hisabb</h1>
+        <p class="lede">Billing and ledgers for the mandi counter. Built for commission agents who need speed, not another cloud login.</p>
+        <div class="cta-row">
+          <a class="btn-primary" data-download href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest/download/HisabbSetup-1.0.0.exe">
+            Download for Windows
+            <span class="btn-meta" data-version>v1.0.0</span>
+          </a>
+          <a class="btn-secondary" href="https://github.com/mfaeezshabbir/hisabb-pos">View GitHub repo</a>
+        </div>
+        <p class="fine">Installer · SHA-256 verified updates from this repo</p>
       </div>
-      <div class="hero-shade" aria-hidden="true"></div>
-      <div class="hero-inner">
-        <h1 class="brand">Hisabb</h1>
-        <p class="line">Offline billing for the mandi counter — Urdu, English, Windows.</p>
-        <div class="cta">
-          <a class="primary" href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest">Download for Windows</a>
+
+      <div class="hero-product" aria-hidden="false">
+        <div class="device">
+          <div class="device-bar">
+            <span></span><span></span><span></span>
+            <em>Hisabb</em>
+          </div>
+          <img src="assets/screens/sales.png" alt="Hisabb sales bill screen" width="1400" height="875" />
         </div>
       </div>
     </section>
 
-    <section class="strip">
-      <p class="strip-kicker">What you run on the desk</p>
-      <h2>Bills, cash, ledgers — without the cloud.</h2>
+    <section class="proof">
+      <div class="proof-inner">
+        <h2>Made for the desk, not the dashboard fad.</h2>
+        <ul class="pillars">
+          <li>
+            <strong>Sales bills</strong>
+            <span>Traders, buyers, charges, reprint — 58&nbsp;mm, 80&nbsp;mm, A4.</span>
+          </li>
+          <li>
+            <strong>Cash &amp; books</strong>
+            <span>Receipts, payments, trial balance that stays honest.</span>
+          </li>
+          <li>
+            <strong>Two languages</strong>
+            <span>RTL Urdu UI. Names in Urdu, English, or both.</span>
+          </li>
+          <li>
+            <strong>Stays offline</strong>
+            <span>Local SQLite. Activate once, then work without the net.</span>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section class="gallery">
-      <figure class="shot shot-wide reveal">
-        <img src="assets/screens/sales.png" alt="New sales bill in Hisabb" width="1600" height="1000" />
-        <figcaption>Sales bill</figcaption>
-      </figure>
-      <figure class="shot reveal">
-        <img src="assets/screens/accounts.png" alt="Accounts in Hisabb" width="1200" height="750" />
-        <figcaption>Accounts</figcaption>
-      </figure>
-      <figure class="shot reveal">
-        <img src="assets/screens/reports.png" alt="Reports in Hisabb" width="1200" height="750" />
-        <figcaption>Reports</figcaption>
+    <section class="feature">
+      <div class="feature-text">
+        <p class="kicker dark">Accounts</p>
+        <h2>Every shop, every balance — in the language you use.</h2>
+        <p>Look up traders and buyers at the keyboard. Optional English names sit beside Urdu so English UI never shows empty labels.</p>
+      </div>
+      <figure class="feature-shot">
+        <img src="assets/screens/accounts.png" alt="Hisabb accounts" width="1200" height="750" />
       </figure>
     </section>
 
-    <section class="close">
-      <h2>One key. One PC. Then offline.</h2>
-      <p>Install, paste the activation key from the developer, keep working when the line drops.</p>
-      <a class="primary" href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest">Get the installer</a>
+    <section class="feature feature-flip">
+      <div class="feature-text">
+        <p class="kicker dark">Reports</p>
+        <h2>See the day without leaving the counter.</h2>
+        <p>Item sales, ledgers, and trial balance — the same books the app posts as you bill.</p>
+      </div>
+      <figure class="feature-shot">
+        <img src="assets/screens/reports.png" alt="Hisabb reports" width="1200" height="750" />
+      </figure>
+    </section>
+
+    <section class="activate">
+      <div class="activate-inner">
+        <h2>Activate once. Run offline.</h2>
+        <p>Install Hisabb, paste the one-time key from the developer, and the licence locks to that PC.</p>
+        <div class="cta-row">
+          <a class="btn-primary" data-download href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest/download/HisabbSetup-1.0.0.exe">Download installer</a>
+          <a class="btn-on-dark" href="https://github.com/mfaeezshabbir/hisabb-pos">GitHub</a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="foot">
-    <span>Hisabb</span>
-    <a href="https://github.com/mfaeezshabbir/hisabb-pos/releases">Releases</a>
+    <div>
+      <strong>Hisabb</strong>
+      <span>Product site &amp; release feed</span>
+    </div>
+    <div class="foot-links">
+      <a data-download href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest/download/HisabbSetup-1.0.0.exe">Direct download</a>
+      <a href="https://github.com/mfaeezshabbir/hisabb-pos">Repository</a>
+      <a href="https://github.com/mfaeezshabbir/hisabb-pos/releases">All releases</a>
+    </div>
   </footer>
 
   <script>
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add("in"); });
-    }, { threshold: 0.15 });
-    document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+    // Resolve the latest HisabbSetup-*.exe so "Download" always hits the current release.
+    (async () => {
+      try {
+        const res = await fetch("https://api.github.com/repos/mfaeezshabbir/hisabb-pos/releases/latest", {
+          headers: { Accept: "application/vnd.github+json" }
+        });
+        if (!res.ok) return;
+        const rel = await res.json();
+        const asset = (rel.assets || []).find((a) =>
+          /^HisabbSetup-.*\.exe$/i.test(a.name) && !/\.sha256$/i.test(a.name)
+        );
+        if (!asset) return;
+        document.querySelectorAll("[data-download]").forEach((a) => {
+          a.href = asset.browser_download_url;
+        });
+        document.querySelectorAll("[data-version]").forEach((el) => {
+          el.textContent = rel.tag_name || "";
+        });
+      } catch (_) { /* keep hardcoded fallback */ }
+    })();
   </script>
 </body>
 </html>
