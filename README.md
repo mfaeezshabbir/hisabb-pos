@@ -18,4 +18,6 @@ This repository publishes Hisabb installers. Installed copies can check here for
 
 ## Licence
 
-Each shop runs under a signed licence issued for that business. If the app asks for a licence or shows a machine code, contact the developer to get one set up or replaced.
+Each shop is unlocked with an **activation key** from the developer. Paste the key in the app and press Activate (needs internet once). After that, Hisabb runs offline on that computer.
+
+If you need a new key or moved to a new PC, contact the developer.
