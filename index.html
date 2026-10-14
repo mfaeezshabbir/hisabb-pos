@@ -3,114 +3,73 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hisabb — Offline billing for produce markets</title>
-  <meta name="description" content="Hisabb is offline Urdu/English billing and accounts for produce-market commission agents. Windows app, signed licences, one-click updates." />
+  <title>Hisabb</title>
+  <meta name="description" content="Offline Urdu/English billing for produce-market commission agents." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="top">
-    <a class="brand" href="./">Hisabb</a>
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#screens">Screens</a>
-      <a href="#licence">Licence</a>
-      <a class="btn btn-sm" href="https://github.com/mfaeezshabbir/hisabb-pos/releases">Downloads</a>
-    </nav>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="nav">
+    <span class="nav-brand">Hisabb</span>
+    <a class="nav-link" href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest">Download</a>
   </header>
 
-  <section class="hero">
-    <div class="hero-copy">
-      <p class="eyebrow">Produce markets · Commission agents</p>
-      <h1 class="logo-hero">Hisabb</h1>
-      <p class="lede">Offline billing and ledgers for the arhat counter — Urdu and English, keyboard-first, built for Windows.</p>
-      <div class="cta">
-        <a class="btn" href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest">Get the installer</a>
-        <a class="btn btn-ghost" href="#screens">See the screens</a>
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/screens/dashboard.png" alt="" />
       </div>
-    </div>
-    <div class="hero-visual" aria-hidden="true">
-      <div class="glow"></div>
-      <img src="assets/screens/dashboard.png" alt="" width="960" height="600"
-           onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
-      <div class="shot-fallback" style="display:none">
-        <span>Hisabb</span>
-        <small>Dashboard · Bills · Ledgers</small>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <h1 class="brand">Hisabb</h1>
+        <p class="line">Offline billing for the mandi counter — Urdu, English, Windows.</p>
+        <div class="cta">
+          <a class="primary" href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest">Download for Windows</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="features" class="band">
-    <h2>Built for the mandi desk</h2>
-    <p class="sub">One job per screen. Fast entry. Books that stay in balance.</p>
-    <ul class="feats">
-      <li>
-        <h3>Sales bills</h3>
-        <p>Traders, buyers, charges, edit and reprint — 58 mm, 80 mm, or A4.</p>
-      </li>
-      <li>
-        <h3>Cash &amp; ledgers</h3>
-        <p>Batch receipts and payments. Trial balance that adds up.</p>
-      </li>
-      <li>
-        <h3>Urdu + English</h3>
-        <p>RTL-aware UI. Account and item names in either language — or both.</p>
-      </li>
-      <li>
-        <h3>Works offline</h3>
-        <p>Local SQLite on the shop PC. Updates when you want them, not when the line drops.</p>
-      </li>
-    </ul>
-  </section>
+    <section class="strip">
+      <p class="strip-kicker">What you run on the desk</p>
+      <h2>Bills, cash, ledgers — without the cloud.</h2>
+    </section>
 
-  <section id="screens" class="band band-alt">
-    <h2>Inside the app</h2>
-    <p class="sub">Real screens from Hisabb on Windows.</p>
-    <div class="shots">
-      <figure>
-        <img src="assets/screens/dashboard.png" alt="Hisabb dashboard" loading="lazy"
-             onerror="this.parentElement.classList.add('missing')" />
-        <figcaption>Dashboard</figcaption>
+    <section class="gallery">
+      <figure class="shot shot-wide reveal">
+        <img src="assets/screens/sales.png" alt="New sales bill in Hisabb" width="1600" height="1000" />
+        <figcaption>Sales bill</figcaption>
       </figure>
-      <figure>
-        <img src="assets/screens/sales.png" alt="Sales bill screen" loading="lazy"
-             onerror="this.parentElement.classList.add('missing')" />
-        <figcaption>New sales bill</figcaption>
-      </figure>
-      <figure>
-        <img src="assets/screens/accounts.png" alt="Accounts screen" loading="lazy"
-             onerror="this.parentElement.classList.add('missing')" />
+      <figure class="shot reveal">
+        <img src="assets/screens/accounts.png" alt="Accounts in Hisabb" width="1200" height="750" />
         <figcaption>Accounts</figcaption>
       </figure>
-      <figure>
-        <img src="assets/screens/reports.png" alt="Reports screen" loading="lazy"
-             onerror="this.parentElement.classList.add('missing')" />
+      <figure class="shot reveal">
+        <img src="assets/screens/reports.png" alt="Reports in Hisabb" width="1200" height="750" />
         <figcaption>Reports</figcaption>
       </figure>
-    </div>
-  </section>
+    </section>
 
-  <section id="licence" class="band">
-    <h2>Simple activation</h2>
-    <p class="sub">Each shop gets a one-time key. Paste it once — the app locks to that PC and runs offline after that.</p>
-    <ol class="steps">
-      <li>Install Hisabb from the latest release</li>
-      <li>Contact the developer for an activation key</li>
-      <li>Paste the key → Activate → start billing</li>
-    </ol>
-  </section>
+    <section class="close">
+      <h2>One key. One PC. Then offline.</h2>
+      <p>Install, paste the activation key from the developer, keep working when the line drops.</p>
+      <a class="primary" href="https://github.com/mfaeezshabbir/hisabb-pos/releases/latest">Get the installer</a>
+    </section>
+  </main>
 
   <footer class="foot">
-    <div>
-      <strong>Hisabb</strong>
-      <span>Offline billing for produce markets</span>
-    </div>
-    <div class="foot-links">
-      <a href="https://github.com/mfaeezshabbir/hisabb-pos/releases">Releases</a>
-      <a href="./README.md">About</a>
-    </div>
+    <span>Hisabb</span>
+    <a href="https://github.com/mfaeezshabbir/hisabb-pos/releases">Releases</a>
   </footer>
+
+  <script>
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add("in"); });
+    }, { threshold: 0.15 });
+    document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+  </script>
 </body>
 </html>
